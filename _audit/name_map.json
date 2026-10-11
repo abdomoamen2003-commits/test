@@ -1,0 +1,308 @@
+[
+ {
+  "name": "alamein1.jpg",
+  "var": "sz",
+  "off": 312349,
+  "i": 0
+ },
+ {
+  "name": "alamein2.jpg",
+  "var": "Bz",
+  "off": 377298,
+  "i": 1
+ },
+ {
+  "name": "alamein3.jpg",
+  "var": "gz",
+  "off": 422299,
+  "i": 2
+ },
+ {
+  "name": "burouj1.jpg",
+  "var": "Vz",
+  "off": 474596,
+  "i": 3
+ },
+ {
+  "name": "burouj2.jpg",
+  "var": "Mz",
+  "off": 598521,
+  "i": 4
+ },
+ {
+  "name": "burouj3.jpg",
+  "var": "Jz",
+  "off": 694690,
+  "i": 5
+ },
+ {
+  "name": "clients/aiu-color.png",
+  "var": "oz",
+  "off": 768111,
+  "i": 6
+ },
+ {
+  "name": "clients/aiu.png",
+  "var": "Rz",
+  "off": 799011,
+  "i": 7
+ },
+ {
+  "name": "clients/emaar-color.png",
+  "var": "Iz",
+  "off": 818487,
+  "i": 8
+ },
+ {
+  "name": "clients/emaar.png",
+  "var": "fz",
+  "off": 831839,
+  "i": 9
+ },
+ {
+  "name": "clients/imkan.png",
+  "var": "qz",
+  "off": 845199,
+  "i": 10
+ },
+ {
+  "name": "clients/innovo.png",
+  "var": "wz",
+  "off": 854907,
+  "i": 11
+ },
+ {
+  "name": "french1.jpg",
+  "var": "Dz",
+  "off": 859867,
+  "i": 12
+ },
+ {
+  "name": "french2.jpg",
+  "var": "Kz",
+  "off": 987548,
+  "i": 13
+ },
+ {
+  "name": "french3.jpg",
+  "var": "bz",
+  "off": 1072901,
+  "i": 14
+ },
+ {
+  "name": "galala1.jpg",
+  "var": "Tz",
+  "off": 1135922,
+  "i": 15
+ },
+ {
+  "name": "galala2.jpg",
+  "var": "Yz",
+  "off": 1223203,
+  "i": 16
+ },
+ {
+  "name": "galala3.jpg",
+  "var": "Uz",
+  "off": 1268316,
+  "i": 17
+ },
+ {
+  "name": "growth.jpg",
+  "var": "Nz",
+  "off": 1326997,
+  "i": 18
+ },
+ {
+  "name": "hats.jpg",
+  "var": "Zz",
+  "off": 1618418,
+  "i": 19
+ },
+ {
+  "name": "hero.jpg",
+  "var": "mz",
+  "off": 1886199,
+  "i": 20
+ },
+ {
+  "name": "industry1.jpg",
+  "var": "Xz",
+  "off": 2177620,
+  "i": 21
+ },
+ {
+  "name": "industry2.jpg",
+  "var": "Fz",
+  "off": 2291961,
+  "i": 22
+ },
+ {
+  "name": "interior.jpg",
+  "var": "Qz",
+  "off": 2470846,
+  "i": 23
+ },
+ {
+  "name": "logo-mark.png",
+  "var": "hz",
+  "off": 2634627,
+  "i": 24
+ },
+ {
+  "name": "logo-white.png",
+  "var": "vz",
+  "off": 2721087,
+  "i": 25
+ },
+ {
+  "name": "logo.png",
+  "var": "Cz",
+  "off": 2765547,
+  "i": 26
+ },
+ {
+  "name": "message.jpg",
+  "var": "Lz",
+  "off": 3010939,
+  "i": 27
+ },
+ {
+  "name": "mission.jpg",
+  "var": "Ez",
+  "off": 3204624,
+  "i": 28
+ },
+ {
+  "name": "overview1.jpg",
+  "var": "_z",
+  "off": 3420853,
+  "i": 29
+ },
+ {
+  "name": "overview2.jpg",
+  "var": "$z",
+  "off": 3614538,
+  "i": 30
+ },
+ {
+  "name": "plan.jpg",
+  "var": "eW",
+  "off": 3712967,
+  "i": 31
+ },
+ {
+  "name": "process.jpg",
+  "var": "tW",
+  "off": 3797152,
+  "i": 32
+ },
+ {
+  "name": "process1.jpg",
+  "var": "AW",
+  "off": 3941161,
+  "i": 33
+ },
+ {
+  "name": "process2.jpg",
+  "var": "nW",
+  "off": 4022026,
+  "i": 34
+ },
+ {
+  "name": "process3.jpg",
+  "var": "cW",
+  "off": 4166035,
+  "i": 35
+ },
+ {
+  "name": "process4.jpg",
+  "var": "rW",
+  "off": 4256036,
+  "i": 36
+ },
+ {
+  "name": "rebar.jpg",
+  "var": "jW",
+  "off": 4328921,
+  "i": 37
+ },
+ {
+  "name": "safety.jpg",
+  "var": "kW",
+  "off": 4472346,
+  "i": 38
+ },
+ {
+  "name": "soul1.jpg",
+  "var": "aW",
+  "off": 4541559,
+  "i": 39
+ },
+ {
+  "name": "soul2.jpg",
+  "var": "PW",
+  "off": 4696716,
+  "i": 40
+ },
+ {
+  "name": "soul3.jpg",
+  "var": "HW",
+  "off": 4835161,
+  "i": 41
+ },
+ {
+  "name": "survey.jpg",
+  "var": "xW",
+  "off": 4983102,
+  "i": 42
+ },
+ {
+  "name": "sus1.jpg",
+  "var": "uW",
+  "off": 5052059,
+  "i": 43
+ },
+ {
+  "name": "sus2.jpg",
+  "var": "OW",
+  "off": 5311752,
+  "i": 44
+ },
+ {
+  "name": "team.jpg",
+  "var": "pW",
+  "off": 5430265,
+  "i": 45
+ },
+ {
+  "name": "team2.jpg",
+  "var": "SW",
+  "off": 5544606,
+  "i": 46
+ },
+ {
+  "name": "vision.jpg",
+  "var": "lW",
+  "off": 5632635,
+  "i": 47
+ },
+ {
+  "name": "why1.jpg",
+  "var": "GW",
+  "off": 5712324,
+  "i": 48
+ },
+ {
+  "name": "why2.jpg",
+  "var": "iW",
+  "off": 5860913,
+  "i": 49
+ },
+ {
+  "name": "why3.jpg",
+  "var": "yW",
+  "off": 5938958,
+  "i": 50
+ }
+]

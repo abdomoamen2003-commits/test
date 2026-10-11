@@ -1,0 +1,110 @@
+
+===== SITE 0 (line 219, offset 6077712, len 134) =====
+jsx("img",{src:Dn("logo-mark.png"),alt:"El Halfawy",className:`w-auto transition-all duration-500 ${A?"h-10 md:h-11":"h-11 md:h-14"}`}
+--- before ---
+xs("div",{className:`mx-auto flex max-w-7xl items-center justify-between px-5 transition-all duration-500 md:px-10 ${A?"h-[60px] md:h-[68px]":"h-[68px] md:h-[84px]"}`,children:[S.jsxs(PA,{to:"/","aria-label":"El Halfawy — Architecture & General Contracting",className:"flex items-center",children:[S.
+
+===== SITE 1 (line 219, offset 6079148, len 114) =====
+jsx("img",{src:Dn("logo-white.png"),alt:"El Halfawy — Architecture & General Contracting",className:"h-20 w-auto"}
+--- before ---
+assName:"block border-t border-teal-50 px-6 py-4 font-semibold",children:j},r))})]})}function WW(){return S.jsxs("footer",{className:"bg-teal-900 px-5 pb-8 pt-16 text-white md:px-10",children:[S.jsxs("div",{className:"mx-auto grid max-w-7xl gap-12 md:grid-cols-3",children:[S.jsxs("div",{children:[S.
+
+===== SITE 2 (line 219, offset 6083188, len 98) =====
+jsx("img",{src:eA("hero"),alt:"",className:"hero-img absolute inset-0 h-full w-full object-cover"}
+--- before ---
+,c)),!r&&c===a.length){r=!0,j=setTimeout(k,1800);return}r&&c===0&&(r=!1,n=(n+1)%w4.length),j=setTimeout(k,r?28:65)};return k(),()=>clearTimeout(j)},[]),S.jsxs("section",{ref:t,className:"relative flex min-h-screen items-center overflow-hidden bg-teal-900 pb-16 pt-32 text-white md:pt-36",children:[S.
+
+===== SITE 3 (line 219, offset 6085178, len 104) =====
+jsx("img",{src:eA(r.images[0]),alt:r.name,className:"h-72 w-full rounded-2xl object-cover md:h-[26rem]"}
+--- before ---
+e:"relative overflow-hidden rounded-[2rem] bg-teal-900 p-4 text-white shadow-2xl md:p-9",children:[S.jsx("div",{ref:c,className:"absolute left-0 top-0 h-1 w-full origin-left bg-accent"}),S.jsxs("div",{className:"grid items-center gap-8 md:grid-cols-2",style:{animation:"fadeIn .8s ease"},children:[S.
+
+===== SITE 4 (line 219, offset 6086852, len 54) =====
+jsx("img",{src:eA(t.img),alt:t.title,className:"h-56"}
+--- before ---
+services across every stage of construction.",children:"Our Services"}),S.jsx("div",{className:"grid gap-7 md:grid-cols-3",children:Dl.map((t,e)=>{const A=gW[e];return S.jsxs("article",{className:"card","data-aos":"fade-up","data-aos-delay":e*120,children:[S.jsx("div",{className:"imgbox",children:S.
+
+===== SITE 5 (line 219, offset 6087694, len 49) =====
+jsx("img",{src:eA(t.img),alt:"",className:"h-44"}
+--- before ---
+ion shape every build we deliver.",children:"About Us"}),S.jsx("div",{className:"grid gap-7 sm:grid-cols-2 lg:grid-cols-4",children:ju.map((t,e)=>S.jsxs(PA,{to:"/about",className:"card group text-white","data-aos":"fade-up","data-aos-delay":e*100,children:[S.jsx("div",{className:"imgbox",children:S.
+
+===== SITE 6 (line 219, offset 6088399, len 74) =====
+jsx("img",{src:eA(t.img),alt:t.title,className:"h-64 w-full object-cover"}
+--- before ---
+:[S.jsx(An,{children:"Industry Expertise"}),S.jsx("div",{className:"grid gap-7 md:grid-cols-2",children:Kl.map((t,e)=>S.jsxs("div",{className:"overflow-hidden rounded-3xl bg-white text-teal-900","data-aos":e?"fade-left":"fade-right",children:[S.jsx("div",{className:"imgbox !rounded-none",children:S.
+
+===== SITE 7 (line 219, offset 6089607, len 124) =====
+jsx("img",{src:Dn("clients/"+t.logo),alt:t.name,className:`${t.h} w-auto max-w-[80%] !w-auto !object-contain !rounded-none`}
+--- before ---
+{t.project}`,className:"card group flex flex-col items-center text-center text-white","data-aos":"fade-up","data-aos-delay":e*100,children:[S.jsxs("div",{className:"mx-logo",children:[S.jsx("div",{className:"mx-logo-tile",style:{"--tile":t.tile.bg}}),S.jsx("div",{className:"mx-logo-base",children:S.
+
+===== SITE 8 (line 219, offset 6089785, len 147) =====
+jsx("img",{src:Dn("clients/"+t.tile.logo),alt:"","aria-hidden":!0,className:`${t.tile.h} w-auto max-w-[70%] !w-auto !object-contain !rounded-none`}
+--- before ---
+dren:[S.jsx("div",{className:"mx-logo-tile",style:{"--tile":t.tile.bg}}),S.jsx("div",{className:"mx-logo-base",children:S.jsx("img",{src:Dn("clients/"+t.logo),alt:t.name,className:`${t.h} w-auto max-w-[80%] !w-auto !object-contain !rounded-none`})}),S.jsx("div",{className:"mx-logo-color",children:S.
+
+===== SITE 9 (line 219, offset 6090884, len 95) =====
+jsx("img",{src:eA(A),alt:"",className:"absolute inset-0 h-full w-full object-cover opacity-25"}
+--- before ---
+et in Touch"}),S.jsxs(PA,{to:"/contact",className:"btn-outline",children:["Contact Us ",S.jsx(Yc,{size:20})]})]}),S.jsx(MxMap,{})]})}const mk=({title:t,sub:e,bg:A="hero"})=>S.jsxs("header",{className:"relative overflow-hidden bg-teal-900 px-5 pb-20 pt-40 text-center text-white md:px-10",children:[S.
+
+===== SITE 10 (line 219, offset 6092290, len 99) =====
+jsx("img",{src:Dn("overview1.jpg"),alt:"Rebar fixing on site",className:"h-80 w-full object-cover"}
+--- before ---
+uality, safety and innovation, the company delivers reliable construction solutions that transform concepts into durable, functional and sustainable built environments."})]}),S.jsxs("div",{className:"grid grid-cols-2 gap-4","data-aos":"fade-left",children:[S.jsx("div",{className:"imgbox",children:S.
+
+===== SITE 11 (line 219, offset 6092442, len 102) =====
+jsx("img",{src:Dn("overview2.jpg"),alt:"Cladding stone delivery",className:"h-80 w-full object-cover"}
+--- before ---
+lt environments."})]}),S.jsxs("div",{className:"grid grid-cols-2 gap-4","data-aos":"fade-left",children:[S.jsx("div",{className:"imgbox",children:S.jsx("img",{src:Dn("overview1.jpg"),alt:"Rebar fixing on site",className:"h-80 w-full object-cover"})}),S.jsx("div",{className:"imgbox mt-10",children:S.
+
+===== SITE 12 (line 219, offset 6092922, len 74) =====
+jsx("img",{src:eA(n.img),alt:n.title,className:"h-56 w-full object-cover"}
+--- before ---
+titive strengths",children:"Why Choose El Halfawy"}),S.jsx("div",{className:"grid gap-7 md:grid-cols-3",children:Wz.map((n,c)=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":c*120,className:"rounded-3xl border-2 border-accent glass p-5",children:[S.jsx("div",{className:"imgbox mb-5",children:S.
+
+===== SITE 13 (line 219, offset 6093737, len 125) =====
+jsx("img",{"data-aos":"fade-left",src:eA("team2"),alt:"El Halfawy site team",className:"rounded-3xl object-cover shadow-2xl"}
+--- before ---
+h"}),S.jsx("p",{className:"text-lg",children:"We continue to expand our capabilities through technology adoption, workforce development and strategic partnerships, planning larger and more complex projects while holding onto our core values: quality, safety and environmental sustainability."})]}),S.
+
+===== SITE 14 (line 219, offset 6094300, len 54) =====
+jsx("img",{src:eA(t.img),alt:t.title,className:"h-60"}
+--- before ---
+ough a disciplined four-stage process."}),S.jsx(lt,{slant:!0,tone:"white",children:S.jsx("div",{className:"grid gap-7 md:grid-cols-3",children:Dl.map((t,e)=>S.jsxs("article",{className:"card text-white","data-aos":"fade-up","data-aos-delay":e*100,children:[S.jsx("div",{className:"imgbox",children:S.
+
+===== SITE 15 (line 219, offset 6094921, len 74) =====
+jsx("img",{src:eA(t.img),alt:t.title,className:"h-44 w-full object-cover"}
+--- before ---
+andover.",children:"Our Work Process"}),S.jsx("ol",{className:"grid gap-6 md:grid-cols-4",children:zz.map((t,e)=>S.jsxs("li",{"data-aos":"fade-up","data-aos-delay":e*120,className:"overflow-hidden rounded-3xl bg-white text-teal-900",children:[S.jsx("div",{className:"imgbox !rounded-none",children:S.
+
+===== SITE 16 (line 219, offset 6095498, len 88) =====
+jsx("img",{src:Dn("hats.jpg"),alt:"Safety helmets",className:"h-56 w-full object-cover"}
+--- before ---
+,children:t.text})]})]},t.title))})]}),S.jsxs(lt,{slant:!0,tone:"white",children:[S.jsxs("div",{className:"grid gap-7 md:grid-cols-2",children:[S.jsxs("div",{className:"overflow-hidden rounded-3xl bg-teal-50","data-aos":"fade-right",children:[S.jsx("div",{className:"imgbox !rounded-none",children:S.
+
+===== SITE 17 (line 219, offset 6096199, len 97) =====
+jsx("img",{src:Dn(t+".jpg"),alt:"Sustainable site practice",className:"h-56 w-full object-cover"}
+--- before ---
+ stakeholders while minimizing operational risk."})]})]}),S.jsxs("div",{className:"overflow-hidden rounded-3xl bg-teal-50","data-aos":"fade-left",children:[S.jsx("div",{className:"grid grid-cols-3 gap-1",children:["sus1","sus2","plan"].map(t=>S.jsx("div",{className:"imgbox !rounded-none",children:S.
+
+===== SITE 18 (line 219, offset 6097481, len 59) =====
+jsx("img",{src:eA(t.images[0]),alt:t.name,className:"h-64"}
+--- before ---
+"}),S.jsx(lt,{slant:!0,tone:"teal",children:S.jsx("div",{className:"grid gap-7 md:grid-cols-2 lg:grid-cols-3",children:kk.map((t,e)=>S.jsxs(PA,{to:`/projects/${t.id}`,className:"card group text-white","data-aos":"fade-up","data-aos-delay":e%3*100,children:[S.jsx("div",{className:"imgbox",children:S.
+
+===== SITE 19 (line 219, offset 6098322, len 131) =====
+jsx("img",{src:eA(t.images[e]),alt:t.name,className:"h-96 w-full rounded-3xl object-cover shadow-xl",style:{animation:"fadeI .5s"}}
+--- before ---
+S.jsxs(lt,{slant:!0,tone:"white",children:[S.jsxs(PA,{to:"/projects",className:"mb-8 inline-flex items-center gap-2 font-semibold text-teal-600 hover:text-accent",children:[S.jsx(kz,{size:18}),"All Projects"]}),S.jsxs("div",{className:"grid gap-10 lg:grid-cols-2",children:[S.jsxs("div",{children:[S.
+
+===== SITE 20 (line 219, offset 6098704, len 63) =====
+jsx("img",{src:eA(n),alt:"",className:"h-20 w-28 object-cover"}
+--- before ---
+t-cover shadow-xl",style:{animation:"fadeI .5s"}},e),S.jsx("div",{className:"mt-4 flex gap-3",children:t.images.map((n,c)=>S.jsx("button",{onClick:()=>A(c),"aria-label":`Photo ${c+1}`,className:`overflow-hidden rounded-xl border-2 ${c===e?"border-accent":"border-transparent opacity-70"}`,children:S.
+
+===== SITE 21 (line 227, offset 6102012, len 35) =====
+jsx("img",{src:eA(n.img),alt:n.key}
+--- before ---
+e:"deep",children:S.jsx("div",{className:"mx-about",children:ju.map((n,c)=>{const a=o===c;return S.jsxs("article",{className:"mx-about-row"+(c%2?" is-rev":""),children:[ S.jsx("div",{className:"mx-about-img","data-aos":c%2?"fade-left":"fade-right",children:S.jsx("div",{className:"imgbox",children:S.

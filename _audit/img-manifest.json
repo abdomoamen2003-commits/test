@@ -1,0 +1,1207 @@
+{
+ "images": [
+  {
+   "name": "alamein1.jpg",
+   "key": "./img/alamein1.jpg",
+   "file": "img/alamein1.1a634cdb.webp",
+   "source": {
+    "bytes": 48690,
+    "w": 310,
+    "h": 381,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 25684,
+    "w": 310,
+    "h": 381,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 34.38384665314668,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "alamein2.jpg",
+   "key": "./img/alamein2.jpg",
+   "file": "img/alamein2.e5d5699c.webp",
+   "source": {
+    "bytes": 33728,
+    "w": 310,
+    "h": 379,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 12310,
+    "w": 310,
+    "h": 379,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 38.33007517292067,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "alamein3.jpg",
+   "key": "./img/alamein3.jpg",
+   "file": "img/alamein3.9ab3f81c.webp",
+   "source": {
+    "bytes": 39199,
+    "w": 272,
+    "h": 373,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 18298,
+    "w": 272,
+    "h": 373,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.382149949141464,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "burouj1.jpg",
+   "key": "./img/burouj1.jpg",
+   "file": "img/burouj1.a34e6e4f.webp",
+   "source": {
+    "bytes": 92920,
+    "w": 640,
+    "h": 480,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 67838,
+    "w": 640,
+    "h": 480,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 34.926065852280544,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "burouj2.jpg",
+   "key": "./img/burouj2.jpg",
+   "file": "img/burouj2.a9e04436.webp",
+   "source": {
+    "bytes": 72105,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 43928,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 37.45713725783469,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "burouj3.jpg",
+   "key": "./img/burouj3.jpg",
+   "file": "img/burouj3.a7cd58ee.webp",
+   "source": {
+    "bytes": 55043,
+    "w": 640,
+    "h": 480,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 33436,
+    "w": 640,
+    "h": 480,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.80173963081705,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "clients/aiu-color.png",
+   "key": "./img/clients/aiu-color.png",
+   "file": "img/aiu-color.292f4631.webp",
+   "source": {
+    "bytes": 23152,
+    "w": 681,
+    "h": 260,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 10806,
+    "w": 479,
+    "h": 183,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "clients/aiu.png",
+   "key": "./img/clients/aiu.png",
+   "file": "img/aiu.94e7139a.webp",
+   "source": {
+    "bytes": 14586,
+    "w": 681,
+    "h": 260,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 6062,
+    "w": 479,
+    "h": 183,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "clients/emaar-color.png",
+   "key": "./img/clients/emaar-color.png",
+   "file": "img/emaar-color.2b48ebda.webp",
+   "source": {
+    "bytes": 9992,
+    "w": 327,
+    "h": 73,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 5558,
+    "w": 327,
+    "h": 73,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "clients/emaar.png",
+   "key": "./img/clients/emaar.png",
+   "file": "img/emaar.90437e13.webp",
+   "source": {
+    "bytes": 9997,
+    "w": 327,
+    "h": 73,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 5558,
+    "w": 327,
+    "h": 73,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "clients/imkan.png",
+   "key": "./img/clients/imkan.png",
+   "file": "img/imkan.b52d94d6.webp",
+   "source": {
+    "bytes": 7260,
+    "w": 402,
+    "h": 150,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 3354,
+    "w": 402,
+    "h": 150,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "clients/innovo.png",
+   "key": "./img/clients/innovo.png",
+   "file": "img/innovo.8c0d0ccd.webp",
+   "source": {
+    "bytes": 3698,
+    "w": 250,
+    "h": 51,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 1896,
+    "w": 250,
+    "h": 51,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "french1.jpg",
+   "key": "./img/french1.jpg",
+   "file": "img/french1.ffb238fb.webp",
+   "source": {
+    "bytes": 95738,
+    "w": 640,
+    "h": 480,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 69540,
+    "w": 640,
+    "h": 480,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.39897115322808,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "french2.jpg",
+   "key": "./img/french2.jpg",
+   "file": "img/french2.bd83693a.webp",
+   "source": {
+    "bytes": 63993,
+    "w": 640,
+    "h": 480,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 41226,
+    "w": 640,
+    "h": 480,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.996279914875586,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "french3.jpg",
+   "key": "./img/french3.jpg",
+   "file": "img/french3.9a419a0a.webp",
+   "source": {
+    "bytes": 47242,
+    "w": 640,
+    "h": 480,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 23210,
+    "w": 640,
+    "h": 480,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 38.75193524143003,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "galala1.jpg",
+   "key": "./img/galala1.jpg",
+   "file": "img/galala1.a842768a.webp",
+   "source": {
+    "bytes": 65437,
+    "w": 660,
+    "h": 627,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 33076,
+    "w": 660,
+    "h": 627,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 38.21190089009628,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "galala2.jpg",
+   "key": "./img/galala2.jpg",
+   "file": "img/galala2.b2f15d05.webp",
+   "source": {
+    "bytes": 33813,
+    "w": 660,
+    "h": 497,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 12662,
+    "w": 660,
+    "h": 497,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 41.18333068241349,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "galala3.jpg",
+   "key": "./img/galala3.jpg",
+   "file": "img/galala3.f1475300.webp",
+   "source": {
+    "bytes": 43988,
+    "w": 792,
+    "h": 638,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 17046,
+    "w": 792,
+    "h": 638,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 40.86713168966361,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "growth.jpg",
+   "key": "./img/growth.jpg",
+   "file": "img/growth.88b9ec7e.webp",
+   "source": {
+    "bytes": 218543,
+    "w": 1120,
+    "h": 630,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 166488,
+    "w": 1120,
+    "h": 630,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.28226179942952,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "hats.jpg",
+   "key": "./img/hats.jpg",
+   "file": "img/hats.1bf45a4c.webp",
+   "source": {
+    "bytes": 200813,
+    "w": 1400,
+    "h": 922,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 90604,
+    "w": 1280,
+    "h": 843,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": 36.88955148393086,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "hero.jpg",
+   "key": "./img/hero.jpg",
+   "file": "img/growth.88b9ec7e.webp",
+   "source": {
+    "bytes": 218543,
+    "w": 1120,
+    "h": 630,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 166488,
+    "w": 1120,
+    "h": 630,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": true,
+   "psnr": null,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "industry1.jpg",
+   "key": "./img/industry1.jpg",
+   "file": "img/industry1.c60886a0.webp",
+   "source": {
+    "bytes": 85734,
+    "w": 768,
+    "h": 576,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 51742,
+    "w": 768,
+    "h": 576,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.59849495911678,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "industry2.jpg",
+   "key": "./img/industry2.jpg",
+   "file": "img/industry2.c9ac7c78.webp",
+   "source": {
+    "bytes": 134140,
+    "w": 578,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 98192,
+    "w": 578,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.439875959636424,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "interior.jpg",
+   "key": "./img/interior.jpg",
+   "file": "img/interior.0668caa9.webp",
+   "source": {
+    "bytes": 122814,
+    "w": 768,
+    "h": 578,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 88174,
+    "w": 768,
+    "h": 578,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.387220407680516,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "logo-mark.png",
+   "key": "./img/logo-mark.png",
+   "file": "img/logo-mark.07b7ba3f.webp",
+   "source": {
+    "bytes": 64822,
+    "w": 311,
+    "h": 355,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 20842,
+    "w": 168,
+    "h": 192,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "logo-white.png",
+   "key": "./img/logo-white.png",
+   "file": "img/logo-white.2a3a6e8c.webp",
+   "source": {
+    "bytes": 33323,
+    "w": 1000,
+    "h": 355,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 11054,
+    "w": 450,
+    "h": 160,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "logo.png",
+   "key": "./img/logo.png",
+   "file": "img/logo.a5711c2a.webp",
+   "source": {
+    "bytes": 184023,
+    "w": 1000,
+    "h": 355,
+    "format": "PNG"
+   },
+   "output": {
+    "bytes": 53536,
+    "w": 500,
+    "h": 178,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": Infinity,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "message.jpg",
+   "key": "./img/message.jpg",
+   "file": "img/message.89cf3728.webp",
+   "source": {
+    "bytes": 145241,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 109564,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 34.844206605119254,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "mission.jpg",
+   "key": "./img/mission.jpg",
+   "file": "img/mission.72e7eba4.webp",
+   "source": {
+    "bytes": 162149,
+    "w": 660,
+    "h": 758,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 125872,
+    "w": 660,
+    "h": 758,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.132948339586825,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "overview1.jpg",
+   "key": "./img/overview1.jpg",
+   "file": "img/message.89cf3728.webp",
+   "source": {
+    "bytes": 145241,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 109564,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": true,
+   "psnr": null,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "overview2.jpg",
+   "key": "./img/overview2.jpg",
+   "file": "img/overview2.cbfaae7f.webp",
+   "source": {
+    "bytes": 73798,
+    "w": 482,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 49480,
+    "w": 482,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.29145781027022,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "plan.jpg",
+   "key": "./img/plan.jpg",
+   "file": "img/plan.73f369df.webp",
+   "source": {
+    "bytes": 63115,
+    "w": 480,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 40844,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.45130327027259,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "process.jpg",
+   "key": "./img/process.jpg",
+   "file": "img/process.ec674a11.webp",
+   "source": {
+    "bytes": 107985,
+    "w": 480,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 84648,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 34.465333181224594,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "process1.jpg",
+   "key": "./img/process1.jpg",
+   "file": "img/process1.b2044e3f.webp",
+   "source": {
+    "bytes": 60625,
+    "w": 482,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 37048,
+    "w": 482,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 37.44242883551275,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "process2.jpg",
+   "key": "./img/process2.jpg",
+   "file": "img/process.ec674a11.webp",
+   "source": {
+    "bytes": 107985,
+    "w": 480,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 84648,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": true,
+   "psnr": null,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "process3.jpg",
+   "key": "./img/process3.jpg",
+   "file": "img/process3.940c55f9.webp",
+   "source": {
+    "bytes": 67479,
+    "w": 512,
+    "h": 384,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 51010,
+    "w": 512,
+    "h": 384,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 34.36317855707953,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "process4.jpg",
+   "key": "./img/process4.jpg",
+   "file": "img/process4.f25464a4.webp",
+   "source": {
+    "bytes": 54642,
+    "w": 640,
+    "h": 360,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 34746,
+    "w": 640,
+    "h": 360,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.639304580021886,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "rebar.jpg",
+   "key": "./img/rebar.jpg",
+   "file": "img/rebar.3637ed3d.webp",
+   "source": {
+    "bytes": 107545,
+    "w": 432,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 81876,
+    "w": 432,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.05882257884415,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "safety.jpg",
+   "key": "./img/safety.jpg",
+   "file": "img/safety.dc88b8f3.webp",
+   "source": {
+    "bytes": 51886,
+    "w": 660,
+    "h": 617,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 24242,
+    "w": 660,
+    "h": 617,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 38.61412023379771,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "soul1.jpg",
+   "key": "./img/soul1.jpg",
+   "file": "img/soul1.03a249b2.webp",
+   "source": {
+    "bytes": 116345,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 87294,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.94039597447764,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "soul2.jpg",
+   "key": "./img/soul2.jpg",
+   "file": "img/soul2.be45e4b0.webp",
+   "source": {
+    "bytes": 103812,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 74724,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.14438584501828,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "soul3.jpg",
+   "key": "./img/soul3.jpg",
+   "file": "img/soul3.becb6e46.webp",
+   "source": {
+    "bytes": 110933,
+    "w": 1024,
+    "h": 576,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 76294,
+    "w": 1024,
+    "h": 576,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.893405946786835,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "survey.jpg",
+   "key": "./img/survey.jpg",
+   "file": "img/survey.456f8596.webp",
+   "source": {
+    "bytes": 51695,
+    "w": 480,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 27918,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 37.127778142261114,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "sus1.jpg",
+   "key": "./img/sus1.jpg",
+   "file": "img/sus1.aa6c4b3c.webp",
+   "source": {
+    "bytes": 194747,
+    "w": 900,
+    "h": 1200,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 41712,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": true,
+   "deduped": false,
+   "psnr": 35.93424614521516,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "sus2.jpg",
+   "key": "./img/sus2.jpg",
+   "file": "img/sus2.02f64f47.webp",
+   "source": {
+    "bytes": 88863,
+    "w": 480,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 64064,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.11191626477915,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "team.jpg",
+   "key": "./img/team.jpg",
+   "file": "img/industry1.c60886a0.webp",
+   "source": {
+    "bytes": 85734,
+    "w": 768,
+    "h": 576,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 51742,
+    "w": 768,
+    "h": 576,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": true,
+   "psnr": null,
+   "lossless": true,
+   "q": null
+  },
+  {
+   "name": "team2.jpg",
+   "key": "./img/team2.jpg",
+   "file": "img/team2.cbff5314.webp",
+   "source": {
+    "bytes": 66000,
+    "w": 624,
+    "h": 468,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 43458,
+    "w": 624,
+    "h": 468,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.143565707719205,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "vision.jpg",
+   "key": "./img/vision.jpg",
+   "file": "img/vision.54425801.webp",
+   "source": {
+    "bytes": 59744,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 23860,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 38.78257612053363,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "why1.jpg",
+   "key": "./img/why1.jpg",
+   "file": "img/why1.64268765.webp",
+   "source": {
+    "bytes": 111418,
+    "w": 576,
+    "h": 768,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 81412,
+    "w": 576,
+    "h": 768,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 36.013129677084066,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "why2.jpg",
+   "key": "./img/why2.jpg",
+   "file": "img/why2.dc31550c.webp",
+   "source": {
+    "bytes": 58510,
+    "w": 482,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 36722,
+    "w": 482,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 37.520841581978466,
+   "lossless": false,
+   "q": 78
+  },
+  {
+   "name": "why3.jpg",
+   "key": "./img/why3.jpg",
+   "file": "img/why3.2087be83.webp",
+   "source": {
+    "bytes": 101072,
+    "w": 480,
+    "h": 640,
+    "format": "JPEG"
+   },
+   "output": {
+    "bytes": 79612,
+    "w": 480,
+    "h": 640,
+    "format": "webp"
+   },
+   "resized": false,
+   "deduped": false,
+   "psnr": 35.11951227692945,
+   "lossless": false,
+   "q": 78
+  }
+ ],
+ "css_texture": {
+  "name": "bp-light.jpg",
+  "key": "bp-light",
+  "file": "img/bp-light.669cdffa.webp",
+  "source": {
+   "bytes": 32851,
+   "w": 1534,
+   "h": 1108,
+   "format": "JPEG"
+  },
+  "output": {
+   "bytes": 7554,
+   "w": 1534,
+   "h": 1108,
+   "format": "webp"
+  },
+  "resized": false,
+  "deduped": false,
+  "psnr": 50.13281216039471,
+  "lossless": false,
+  "q": 78
+ },
+ "map": {
+  "./img/alamein1.jpg": "./img/alamein1.1a634cdb.webp",
+  "./img/alamein2.jpg": "./img/alamein2.e5d5699c.webp",
+  "./img/alamein3.jpg": "./img/alamein3.9ab3f81c.webp",
+  "./img/burouj1.jpg": "./img/burouj1.a34e6e4f.webp",
+  "./img/burouj2.jpg": "./img/burouj2.a9e04436.webp",
+  "./img/burouj3.jpg": "./img/burouj3.a7cd58ee.webp",
+  "./img/clients/aiu-color.png": "./img/aiu-color.292f4631.webp",
+  "./img/clients/aiu.png": "./img/aiu.94e7139a.webp",
+  "./img/clients/emaar-color.png": "./img/emaar-color.2b48ebda.webp",
+  "./img/clients/emaar.png": "./img/emaar.90437e13.webp",
+  "./img/clients/imkan.png": "./img/imkan.b52d94d6.webp",
+  "./img/clients/innovo.png": "./img/innovo.8c0d0ccd.webp",
+  "./img/french1.jpg": "./img/french1.ffb238fb.webp",
+  "./img/french2.jpg": "./img/french2.bd83693a.webp",
+  "./img/french3.jpg": "./img/french3.9a419a0a.webp",
+  "./img/galala1.jpg": "./img/galala1.a842768a.webp",
+  "./img/galala2.jpg": "./img/galala2.b2f15d05.webp",
+  "./img/galala3.jpg": "./img/galala3.f1475300.webp",
+  "./img/growth.jpg": "./img/growth.88b9ec7e.webp",
+  "./img/hats.jpg": "./img/hats.1bf45a4c.webp",
+  "./img/hero.jpg": "./img/growth.88b9ec7e.webp",
+  "./img/industry1.jpg": "./img/industry1.c60886a0.webp",
+  "./img/industry2.jpg": "./img/industry2.c9ac7c78.webp",
+  "./img/interior.jpg": "./img/interior.0668caa9.webp",
+  "./img/logo-mark.png": "./img/logo-mark.07b7ba3f.webp",
+  "./img/logo-white.png": "./img/logo-white.2a3a6e8c.webp",
+  "./img/logo.png": "./img/logo.a5711c2a.webp",
+  "./img/message.jpg": "./img/message.89cf3728.webp",
+  "./img/mission.jpg": "./img/mission.72e7eba4.webp",
+  "./img/overview1.jpg": "./img/message.89cf3728.webp",
+  "./img/overview2.jpg": "./img/overview2.cbfaae7f.webp",
+  "./img/plan.jpg": "./img/plan.73f369df.webp",
+  "./img/process.jpg": "./img/process.ec674a11.webp",
+  "./img/process1.jpg": "./img/process1.b2044e3f.webp",
+  "./img/process2.jpg": "./img/process.ec674a11.webp",
+  "./img/process3.jpg": "./img/process3.940c55f9.webp",
+  "./img/process4.jpg": "./img/process4.f25464a4.webp",
+  "./img/rebar.jpg": "./img/rebar.3637ed3d.webp",
+  "./img/safety.jpg": "./img/safety.dc88b8f3.webp",
+  "./img/soul1.jpg": "./img/soul1.03a249b2.webp",
+  "./img/soul2.jpg": "./img/soul2.be45e4b0.webp",
+  "./img/soul3.jpg": "./img/soul3.becb6e46.webp",
+  "./img/survey.jpg": "./img/survey.456f8596.webp",
+  "./img/sus1.jpg": "./img/sus1.aa6c4b3c.webp",
+  "./img/sus2.jpg": "./img/sus2.02f64f47.webp",
+  "./img/team.jpg": "./img/industry1.c60886a0.webp",
+  "./img/team2.jpg": "./img/team2.cbff5314.webp",
+  "./img/vision.jpg": "./img/vision.54425801.webp",
+  "./img/why1.jpg": "./img/why1.64268765.webp",
+  "./img/why2.jpg": "./img/why2.dc31550c.webp",
+  "./img/why3.jpg": "./img/why3.2087be83.webp"
+ },
+ "totals": {
+  "source_bytes": 4352751,
+  "output_bytes": 2296074,
+  "unique_files": 48,
+  "names": 51
+ }
+}

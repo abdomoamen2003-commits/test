@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>El Halfawy — QA harness (not deployed)</title>
+<style>
+  body { font: 13px/1.5 ui-monospace, monospace; margin: 0; background: #111; color: #eee; }
+  #stage { position: absolute; left: -20000px; top: 0; }
+  iframe { border: 0; background: #fff; }
+  #out { padding: 10px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<h1 style="font-size:14px;padding:10px 10px 0">QA harness — results land in <code>window.__QA</code></h1>
+<pre id="out"></pre>
+<div id="stage"></div>
+<script>
+const FREEZE = `*,*::before,*::after{animation:none!important;transition:none!important}
+html.mx .imgbox[data-mx=pre]{clip-path:inset(0 0 0 0 round 1rem)!important}
+html.mx [data-mx=pre]{opacity:1!important;transform:none!important}
+[data-aos]{opacity:1!important;transform:none!important}
+#mx-loader{display:none!important}`;
+
+const stage = document.getElementById('stage');
+const out = document.getElementById('out');
+window.__QA = { running: false, done: false, progress: '', results: {}, errors: [] };
+
+function log(s) { out.textContent += s + '\n'; }
+
+function loadFrame(src, width, height) {
+  return new Promise(resolve => {
+    const f = document.createElement('iframe');
+    f.width = width; f.height = height;
+    f.setAttribute('scrolling', 'no');
+    f.src = src;
+    stage.appendChild(f);
+    let done = false;
+    const finish = () => { if (!done) { done = true; setTimeout(() => resolve(f), 200); } };
+    f.addEventListener('load', () => setTimeout(finish, 400));
+    setTimeout(finish, 4000); // hard cap
+  });
+}
+
+function overflowReport(doc, width) {
+  const vw = doc.documentElement.clientWidth;
+  const rows = [];
+  doc.querySelectorAll('body *').forEach(el => {
+    const r = el.getBoundingClientRect();
+    if (r.width < 2 && r.height < 2) return;
+    if (r.right > vw + 1 || r.left < -1) {
+      rows.push({ tag: el.tagName.toLowerCase(),
+                  cls: (typeof el.className === 'string' ? el.className : '').slice(0, 70),
+                  left: Math.round(r.left), right: Math.round(r.right), w: Math.round(r.width),
+                  pos: doc.defaultView.getComputedStyle(el).position });
+    }
+  });
+  const de = doc.documentElement;
+  return {
+    width,
+    clientWidth: de.clientWidth, scrollWidth: de.scrollWidth, scrollHeight: de.scrollHeight,
+    hScrollbar: doc.defaultView.innerHeight - de.clientHeight,
+    overflowBy: de.scrollWidth - de.clientWidth,
+    offenders: rows.sort((a, b) => b.right - a.right).slice(0, 8),
+    offenderCount: rows.length,
+    offenderBreakdown: rows.reduce((acc, r) => { const k = r.tag + '.' + (r.cls.split(' ')[0] || ''); acc[k] = (acc[k] || 0) + 1; return acc; }, {})
+  };
+}
+
+async function measure(src, width, height, opts) {
+  const f = await loadFrame(src, width, height);
+  try {
+    const doc = f.contentDocument, w = f.contentWindow;
+    if (!doc) throw new Error('no document');
+    const errs = [];
+    w.addEventListener('error', e => errs.push(String(e.message).slice(0, 160)));
+
+    const st = doc.createElement('style'); st.textContent = FREEZE; doc.head.appendChild(st);
+    doc.querySelectorAll('[data-aos]').forEach(e => e.classList.add('aos-animate'));
+    doc.querySelectorAll('[data-mx]').forEach(e => e.setAttribute('data-mx', 'in'));
+
+    // scroll the whole page so layout-triggered effects run, then return to top
+    const H = doc.documentElement.scrollHeight;
+    for (let y = 0; y <= H; y += Math.max(400, Math.round(height * 0.8))) w.scrollTo(0, y);
+    w.scrollTo(0, 0);
+    await new Promise(r => setTimeout(r, 250));
+
+    // file-integrity check: force every image eager, load, and see what fails
+    const imgs = [...doc.images];
+    imgs.forEach(i => { i.loading = 'eager'; i.dispatchEvent(new Event('x')); });
+    doc.querySelectorAll('img[loading]').forEach(i => {});
+    if (opts && opts.checkImages) {
+      w.scrollTo(0, H);
+      await new Promise(r => setTimeout(r, 900));
+      w.scrollTo(0, 0);
+    }
+
+    const rep = { overflow: overflowReport(doc, width) };
+    rep.overflow.canScrollSideways = (() => {
+      w.scrollTo({ left: 400, top: 0, behavior: 'instant' }); const x = w.scrollX;
+      w.scrollTo({ left: 0, top: 0, behavior: 'instant' }); return Math.round(x);
+    })();
+    rep.imgs = {
+      count: imgs.length,
+      lazyAttr: imgs.filter(i => i.getAttribute('loading') === 'lazy').length,
+      broken: imgs.filter(i => i.complete && i.naturalWidth === 0).map(i => (i.currentSrc || i.src).replace(location.origin, '')).slice(0, 12),
+      pending: imgs.filter(i => !i.complete).length,
+      useWebp: imgs.filter(i => /\.webp(\?|$)/.test(i.currentSrc || i.src)).length,
+      noDims: imgs.filter(i => !i.hasAttribute('width')).length,
+      noAlt: imgs.filter(i => !i.hasAttribute('alt')).length
+    };
+    rep.jsErrors = errs.slice(0, 6);
+    rep.sections = doc.querySelectorAll('section').length;
+    return rep;
+  } finally {
+    f.remove();
+  }
+}
+
+window.runQA = function (opts) {
+  const { widths, src, height = 900, checkImages = true } = opts;
+  window.__QA = { running: true, done: false, progress: '', results: {}, errors: [] };
+  (async () => {
+    for (const w of widths) {
+      try {
+        window.__QA.progress = 'measuring ' + w;
+        window.__QA.results[w] = await measure(src, w, height, { checkImages });
+        log(w + ': overflowBy=' + window.__QA.results[w].overflow.overflowBy +
+            ' hScrollbar=' + window.__QA.results[w].overflow.hScrollbar +
+            ' sideways=' + window.__QA.results[w].overflow.canScrollSideways +
+            ' brokenImgs=' + window.__QA.results[w].imgs.broken.length +
+            ' noAlt=' + window.__QA.results[w].imgs.noAlt + ' noDims=' + window.__QA.results[w].imgs.noDims);
+      } catch (e) {
+        window.__QA.errors.push(src + '@' + w + ': ' + e.message);
+        log('ERROR ' + w + ' ' + e.message);
+      }
+    }
+    window.__QA.running = false; window.__QA.done = true; window.__QA.progress = 'done';
+    log('DONE');
+  })();
+  return 'started';
+};
+</script>
+</body>
+</html>
