@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  El Halfawy — one document, five client-side routes (#/, #/about, #/services,
+  #/projects, #/contact). Search engines index the document, not the fragment,
+  so the sitemap contains the single canonical URL. The canonical link in the
+  page head points here as well.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.elhalfawy.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

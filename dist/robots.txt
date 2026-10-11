@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# The site is a single document that renders its sections client-side,
+# so there is nothing to disallow. Assets are public and hash-named.
+
+Sitemap: https://www.elhalfawy.com/sitemap.xml
